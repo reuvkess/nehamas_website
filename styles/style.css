@@ -1,0 +1,36 @@
+::selection {
+    background-color: #8b8b8b;
+    color: #ffffff;
+}
+* {
+    font-family: 'Rubik', sans-serif;
+    border: unset;
+}
+
+body {
+    background-color: #2e2e2e;
+}
+
+.icon-bar {
+    background-color: #444444;
+    outline: 16px solid #444444;
+    width: 64px;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+}
+.icon::selection {
+    background-color: unset;
+    color: #ffffff;
+}
+.active > img.icon {
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    outline: 4px solid #2e2e2e;
+}
+
+h1 {
+    color: #ffffff;
+}
